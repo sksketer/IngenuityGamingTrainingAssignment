@@ -10,16 +10,16 @@
 <body>
     <div class="container">
         <div class="addItems">
-            <form action="">
-                <label for="addItems">Add Tasks</label> <br />
+            <div class="form">
+                <label for="addItem">Add Tasks</label> <br />
                 <input type="text" name="addItem" id="addItem">
-                <button onclick="addItems()">Add</button>
-            </form>
+                <button type="submit" id="btn">Add</button>
+            </div>
         </div>
         <div class="displayItems">
             <h3>Your List: </h3>
             <ul>
-                <li></li>
+                <li id="list"></li>
             </ul>
         </div>
     </div>

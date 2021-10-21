@@ -11,17 +11,17 @@
     margin: 3px;
     background: rgb(240, 173, 173);
 }
-.addItems form {
+.addItems .form {
     margin: 0px 0px 0px 220px;
 }
-.addItems form label {
+.addItems .form label {
     text-align: center;
     margin-left: 65px;
     font-size: 25px;
     /* font-weight: bold; */
     font-family: 'Permanent Marker', cursive;
 }
-.addItems form #addItem {
+.addItems .form #addItem {
     border: none;
     outline: none;
     border-bottom: 2px solid darkblue;
@@ -30,11 +30,11 @@
     min-width: 250px;
     font-size: medium;
 }
-.addItems form #addItem:focus {
+.addItems .form #addItem:focus {
     background: rgb(248, 253, 253);
     border-radius: 12px 0px 12px 0px;
 }
-.addItems form button {
+.addItems .form button {
     padding: 5px 12px;
     border: 2px solid darkblue;
     border-radius: 25px;
